@@ -4,7 +4,7 @@ import CodeEntry from '@/Components/CodeEntry/CodeEntry';
 
 export default function Home() {
   return (
-    <main className='bg-[#2ec4b6]'>
+    <main className='bg-[#468189]'>
       <HomePage />
       <CodeEntry/>
     </main>

@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const Home = (): JSX.Element => {
   return (
-    <div className="w-full h-[950px] relative">
+    <div className="w-full h-[930px] relative">
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a5783] to-[#18a19a]">
-        <div className="grid justify-center iems-center">
+        <div className="grid justify-center items-center">
           <div className="mt-10 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[76px] leading-[normal]">
-            <h1 className="text-5xl text-white">Hello World</h1>
+            <h1 className="text-5xl text-white">Check your financial health</h1>
           </div>
 
           <p className="top-0 left-0 mt-0   font-extralight text-white text-[16px] text-center tracking-[0] leading-[41.6px]">
@@ -15,13 +15,15 @@ const Home = (): JSX.Element => {
             <br />
             card for your finances- within minutes!
           </p>
-
-          <div className="flex justify-center items-center w-[265px] h-[68px] top-0 left-0 bg-[#fb7306] rounded-[32px] shadow-[2px_3px_3px_#064552]">
-            <div className="w-[185px]  [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[32px] tracking-[0] leading-[normal]">
-              Get Started
+        
+          <div className="flex justify-center mt-5 items-center col-span-full">
+        <div className="w-[265px] h-[68px] bg-[#fb7306] text-center rounded-[32px] shadow-[2px_3px_3px_#064552]">
+            <div className="w-[185px] [font-family:'Poppins-SemiBold',Helvetica] mt-4 ml-8 font-semibold text-white text-[32px] tracking-[0] leading-[normal]">
+                Get Started
             </div>
-          </div>
         </div>
+    </div>
+          </div>
 
         <div className="relative">
           <div className="flex justify-center mt-10">
@@ -41,7 +43,7 @@ const Home = (): JSX.Element => {
                   className="w-[30px] h-[30px] top-0 left-0"
                   src="/img/tick.png"
                 />
-                <h1 className="ml-2">Expected Retirement Age</h1>
+                <h1 className="ml-2">Identify Mistakes</h1>
               </div>
 
               <img src="/img/line.png" className="w-[180px] ml-10 h-[3px] " />
@@ -57,7 +59,7 @@ const Home = (): JSX.Element => {
                   className="w-[30px] h-[30px] ml-0 top-0 left-0"
                   src="/img/tick.png"
                 />
-                <h1 className="ml-2">Expected Retirement Age</h1>
+                <h1 className="ml-2">Personalised Road Map</h1>
               </div>
 
               <img src="/img/line.png" className="w-[180px] ml-10 h-[3px] " />
@@ -67,7 +69,7 @@ const Home = (): JSX.Element => {
                   className="w-[30px] h-[30px] top-0 left-0"
                   src="/img/tick.png"
                 />
-                <h1 className="ml-2">Expected Retirement Age</h1>
+                <h1 className="ml-2">Tips To Improve</h1>
               </div>
 
               <img src="/img/line.png" className="w-[180px] ml-10 h-[3px] " />
