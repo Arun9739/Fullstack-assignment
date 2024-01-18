@@ -1,0 +1,12 @@
+import Image from 'next/image'
+import HomePage from "@/Components/Home/Home";
+import CodeEntry from '@/Components/CodeEntry/CodeEntry';
+
+export default function Home() {
+  return (
+    <main className='bg-[#2ec4b6]'>
+      <HomePage />
+      <CodeEntry/>
+    </main>
+  )
+}
