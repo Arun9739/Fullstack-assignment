@@ -31,7 +31,7 @@ const Home = (): JSX.Element => {
               <div className="flex mt-10">
                 <img
                   className="w-[30px] h-[30px] top-0 left-0"
-                  src="/img/tick.png"
+                  src="/img/Tick.png"
                 />
                 <h1 className="ml-2">Expected Retirement Age</h1>
               </div>
@@ -57,7 +57,7 @@ const Home = (): JSX.Element => {
               <div className="flex mt-10">
                 <img
                   className="w-[30px] h-[30px] ml-0 top-0 left-0"
-                  src="/img/tick.png"
+                  src="/img/Tick.png"
                 />
                 <h1 className="ml-2">Personalised Road Map</h1>
               </div>
@@ -67,7 +67,7 @@ const Home = (): JSX.Element => {
               <div className="flex mt-10">
                 <img
                   className="w-[30px] h-[30px] top-0 left-0"
-                  src="/img/tick.png"
+                  src="/img/Tick.png"
                 />
                 <h1 className="ml-2">Tips To Improve</h1>
               </div>
