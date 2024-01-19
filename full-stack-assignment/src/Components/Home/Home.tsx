@@ -41,7 +41,7 @@ const Home = (): JSX.Element => {
               <div className="flex mt-10">
                 <img
                   className="w-[30px] h-[30px] top-0 left-0"
-                  src="/img/tick.png"
+                  src="/img/Tick.png"
                 />
                 <h1 className="ml-2">Identify Mistakes</h1>
               </div>
