@@ -13,7 +13,7 @@ app.use(cors());
 const Code = require('./models/code');
 
 // MongoDB connection
-const mongoURI = proess.env.myMongoURI;
+const mongoURI = process.env.myMongoURI;
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 
