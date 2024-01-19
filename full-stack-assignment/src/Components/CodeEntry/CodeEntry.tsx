@@ -21,6 +21,11 @@ const CodeEntry: React.FC = () => {
     }
   };
 
+  const refreshCode = () => {
+    // Refresh logic: Call the generateCode function to generate a new code
+    generateCode();
+  };
+
   const verifyCode = async () => {
     try {
       const response = await fetch('https://wealthup-task.onrender.com/api/codes/use', {
@@ -53,6 +58,12 @@ const CodeEntry: React.FC = () => {
         onClick={generateCode}
       >
         Generate Code
+      </button>
+      <button
+        className="mt-5 ml-2 transition duration-300 ease-in-out bg-gray-300 hover:bg-gray-500 text-gray-700 font-bold py-2 px-4 rounded"
+        onClick={refreshCode}
+      >
+        Refresh Code
       </button>
       {generatedCode !== null && <p className="mt-2">Generated Code: {generatedCode}</p>}
 
