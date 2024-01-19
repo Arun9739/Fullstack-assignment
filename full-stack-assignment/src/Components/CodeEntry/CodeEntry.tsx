@@ -11,7 +11,7 @@ const CodeEntry: React.FC = () => {
 
   const generateCode = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/codes');
+      const response = await fetch('https://wealthup-task.onrender.com/api/codes');
       console.log('Response:', response);
       const data = await response.json();
       setGeneratedCode(data.code);
@@ -23,7 +23,7 @@ const CodeEntry: React.FC = () => {
 
   const verifyCode = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/codes/use', {
+      const response = await fetch('https://wealthup-task.onrender.com/api/codes/use', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
